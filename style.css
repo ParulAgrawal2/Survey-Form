@@ -1,0 +1,143 @@
+
+
+#body{
+	
+
+}
+
+#background{
+	background: #FFD662FF;
+	background-size: 100%;
+	font-size: 25px;
+	font-style: sans-serif;
+
+}
+
+#survey-form{
+	text-align: left;
+	background: #00B1D2FF;
+	margin: 0px 200px 0px 200px;
+	padding: 30px;
+	position: relative;
+	font-size: 25px;
+	color: #FFD662FF;
+	font-style: sans-serif;
+
+}
+
+#description{
+	
+	background: #00B1D2FF;
+	margin: 0px 200px 10px 200px;
+	padding: 10px;
+	text-align: center;
+	color: #FFD662FF;
+	font-size: 25px;
+
+	
+
+}
+
+
+#title{
+	text-align: center;
+	background: #00B1D2FF;
+	margin: 50px 200px 10px 200px;
+	padding: 10px;
+	position: sticky;
+	top: 10px;
+	color: #FFD662FF;
+	font-style: sans-serif;
+	font-size: 25px;
+
+
+}
+
+#textarea{
+
+	position: relative;
+	width: 90%;
+	border-radius: 10px;
+	font-size: 20px;
+	font-style: sans-serif;
+	
+}
+
+.label{
+	
+	display: block;
+	
+
+}
+
+#name, #email, #number, #city{
+	display: block;
+	border-radius: 10px;
+	position: relative;
+	width: 90%;
+	margin: 10px 0px 10px 0px;
+	font-size: 20px;
+	font-style: sans-serif;
+
+
+	
+
+}
+
+#name:hover{
+	
+	padding: 10px 10px;
+
+
+	
+}
+
+#email:hover{
+	
+	padding: 10px 10px;
+
+	
+}
+
+
+#number:hover{
+	
+	padding: 10px 10px;
+
+	
+}
+
+#city:hover{
+	
+	padding: 10px 10px;
+
+	
+}
+
+#submit{
+	display: block;
+	margin: 10px 0px 10px 0px;
+	font-size: 20px;
+	border-radius: 10px;
+
+}
+
+
+#submit:hover{
+	background: #FFD662FF;
+	color: #00B1D2FF;
+	
+}
+
+.G1{
+	display: flex;
+	margin: 20px;
+}
+
+
+
+#dropdown{
+	border-radius: 5px;	
+	font-size: 20px;
+}
+

@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>My Form</title>
+</head>
+<body>
+
+
+  <div id = "background">
+    
+  <h1 id = "title"> doxy.live Survey Form </h1>
+  
+      <p id ="description"> <b>Thank you for taking time to help us improve the platform.</b></p>
+    
+    <form id = "survey-form">
+      
+      <label for ="name" class="label"> Name: </label>
+     <input type= "text" id ="name" placeholder= "Enter your name here" required>
+       
+       <label for ="email" class="label"> Email: </label> 
+       <input type= "email" id ="email" placeholder= "Enter your email address" required>
+       
+      <label for ="number" class="label"> Age: </label> 
+         <input type= "number" id = "number" placeholder= "Age" min = "25" max="60">
+    
+      <label for ="city" class="label"> City: </label> 
+         <input type= "text" id = "city" placeholder= "Your City">
+          
+          
+      <p>Which specialist are you?</p>
+     
+    <label for ="Gynaecologist" class ="G1">    
+      
+          <input type= "radio" id = "Gynaecologist" name = "Gynaecologist" value="Gynaecologist"> Gynaecologist
+      </label>  
+ 
+          
+ <label for ="Pediatrician" class = "G1">     
+          <input type= "radio" id = "Pediatrician" name = "Gynaecologist" value ="Pediatrician">Pediatrician 
+      </label>
+          
+      
+      <label for ="Cardiologist" class ="G1"> 
+          <input type= "radio" id = "Cardiologist" name = "Gynaecologist" value ="Cardiologist"> Cardiologist 
+      </label>
+          
+      <label for ="Neurologist" class ="G1">
+          <input type= "radio" id = "Neurologist" name = "Gynaecologist" value ="Neurologist">Neurologist 
+      </label>
+      
+      <label for ="Oncologist" class ="G1"> 
+          <input type= "radio" id = "Oncologist" name = "Gynaecologist" value ="Oncologist"> Oncologist
+      </label>
+      
+    
+      
+      
+      <p>Do you practise in rural or urban areas of India? Check both if you are a visiting doctor.</p>
+      
+      <input type = "checkbox" name = "checkbox1" value = "yes">
+      <label for = "checkbox1" class = "checkbox"> Rural </label>
+      
+      <input type = "checkbox" name = "checkbox2" value = "no">
+      <label for = "checkbox2" class = "checkbox"> Urban </label>
+     
+      <p>Which of our services would you be interested to try?</p>
+      
+    
+   <select id="dropdown" name= "software">
+   
+
+   <option value = "Designer Prescriptions">Designer Prescriptions</option>
+   <option value = "Medical Record Holder">Medical Record Holder</option>
+   
+   <option value = "Book Appointments Online">Book Appointments Online</option>       
+   <option value = "All of these">All of these</option>    
+   <option value = "None of these">None of these</option>                                                                                          
+   </select>
+
+
+   <p id = "comments"> Any comments or suggestions? </p>
+   <textarea id ="textarea" placeholder = "Enter your suggestions here.." rows = "10" cols = "65"></textarea>                                                                                                                                               
+
+   <input type = "Submit" id = "submit" value = "Submit">   
+                                                  
+    </form>
+    
+      
+      
+    
+</div>
+
+
+</body>
+</html>
